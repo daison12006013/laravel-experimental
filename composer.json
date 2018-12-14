@@ -1,0 +1,23 @@
+{
+    "name": "daison/laravel-experimental",
+    "description": "This package is used to combine all similar database connections into 1 virtual database, by just using 1 query.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daison",
+            "email": "daison12006013@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Daison\\LaravelExperimental\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1.3"
+    },
+    "require-dev": {
+        "laravel/framework": "^5.5"
+    }
+}
